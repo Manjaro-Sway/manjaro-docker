@@ -41,7 +41,7 @@ jobs:
         run: wget -O linux/arm64.tar -q https://osdn.net/projects/manjaro-arm/storage/.rootfs/Manjaro-ARM-aarch64-latest.tar.gz
       -
         name: setup-qemu
-        uses: docker/setup-qemu-action@v1
+        uses: docker/setup-qemu-action@v1.1.0
       -
         name: setup-buildx
         id: buildx
